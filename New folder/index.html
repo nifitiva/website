@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <div class="logo">ANSHUL</div>
+    <i class="fas fa-bars menu-icon" onclick="openSidebar()"></i>
+     <input type="text"  class="search-bar" placeholder="Search Product">
+  </header>
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="peanut">
+ <i class="fa fa-search"></i>
+ <span class="qr">
+  <i class="fa-solid fa-qrcode"></i>
+ </span>
+  </div>
+<div class="square" style="top: 20px; left: 30px;"></div>
+    <div class="square" style="top: 80px; left: 100px;"></div>
+    <div class="square" style="top: 150px; left: 200px;"></div>
+  </div>
+<div class="section">
+  <div class="icon-btn">
+  <img src="image/shirt.png">
+  <p>Shirt</p>
+  </div>
+  <div class="icon-btn2">
+  <img src="image/kuta.png">
+  <p>Shoes</p>
+  </div>
+  <div class="icon-btn3">
+  <img src="image/saaree.png" >
+  <p>Saree</p>
+  </div>
+  <div class="icon-btn4">
+  <img src="image/shoes.png">
+  <p>Kurta</p>
+  </div>
+  <div class="icon-btn5">
+  <img src="image/baga.png">
+  <p>Bag</p>
+  </div>
+  <div class="icon-btn6">
+  <img src="image/t shit.png">
+  <p>T-Shirt</p>
+  </div>
+  <div class="icon-btn7">
+  <img src="image/watch.jpeg">
+  <p>Watch</p>
+  </div>
+  <div class="icon-btn8">
+  <img src="image/kurti.png">
+  <p>Kurti</p>
+  </div>
+
+</div>
+<div class="banner">
+  <h1>World's Biggest Sale</h1>
+</div>
+ <script>
+    function openSidebar() {
+      document.getElementById("sidebar").style.left = "0";
+    }
+
+    function closeSidebar() {
+      document.getElementById("sidebar").style.left = "-250px";
+    }
+  </script>
+</body>
+</html>
